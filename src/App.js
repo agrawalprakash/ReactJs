@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import ArrayApp from './ArrayApp';
 
 function App() {
  
@@ -15,6 +16,8 @@ function App() {
     <h1 style={{ color: isGreen ? "green" : "red"}} > This is the Color. </h1>
 
     {isGreen && <button> This is a Button </button> }
+
+    <ArrayApp />
 
   </div>
 
