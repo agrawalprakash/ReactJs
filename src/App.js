@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import ArrayApp from './ArrayApp';
+import ToDoTasks from './ToDoTasks';
 
 function App() {
  
@@ -17,7 +17,7 @@ function App() {
 
     {isGreen && <button> This is a Button </button> }
 
-    <ArrayApp />
+    <ToDoTasks />
 
   </div>
 
