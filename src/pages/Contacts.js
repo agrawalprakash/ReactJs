@@ -1,3 +1,16 @@
+import { useContext } from "react";
+import { AppContext } from "../Router";
+
 export const Contacts = () => {
-    return <h1> This is a Contacts page </h1>
+
+    const { userName } = useContext(AppContext);
+    return (
+    
+            <div>
+                {" "}
+                PROFILE, user is : {userName}
+                
+            </div>
+
+        )
 };

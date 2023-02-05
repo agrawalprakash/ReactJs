@@ -1,3 +1,8 @@
+import { useContext } from "react";
+import { AppContext } from "../Router";
+
 export const Home = () => {
-    return <h1>This is the Home Page</h1>
+
+    const { userName } = useContext(AppContext);
+    return <h1>This is the Home Page. User Name is {userName}</h1>
 };
